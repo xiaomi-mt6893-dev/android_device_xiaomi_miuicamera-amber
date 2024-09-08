@@ -5,9 +5,9 @@
 #
 
 # Inherit from the proprietary version
-include vendor/xiaomi/miuicamera-rubyx/BoardConfigVendor.mk
+include vendor/xiaomi/miuicamera-amber/BoardConfigVendor.mk
 
-MIUICAMERA_PATH := device/xiaomi/miuicamera-rubyx
+MIUICAMERA_PATH := device/xiaomi/miuicamera-amber
 
 # Properties
 TARGET_SYSTEM_PROP += $(MIUICAMERA_PATH)/system.prop

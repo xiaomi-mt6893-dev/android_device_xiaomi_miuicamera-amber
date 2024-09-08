@@ -7,7 +7,7 @@
 
 set -e
 
-DEVICE=miuicamera-rubyx
+DEVICE=miuicamera-amber
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -48,7 +48,7 @@ function lib_to_package_fixup() {
 
 function vendor_imports() {
 	cat <<EOF >>"$1"
-		"device/xiaomi/miuicamera-rubyx"
+		"device/xiaomi/miuicamera-amber"
 EOF
 }
 
